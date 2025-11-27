@@ -1,38 +1,39 @@
 # WEB322 – Restaurant App (Assignment 4)
 
-A full-stack Node.js + Express web application using EJS templates to display restaurant meals, categories, and details. Built for Seneca College’s WEB322 course.
+This project is a server-side rendered restaurant website built with **Node.js**, **Express**, and **EJS**.  
+It was created for Seneca College’s WEB322 course to practice routing, templating, and working with data files.
 
-## 🔧 Tech Stack
+## Tech Stack
 - Node.js  
 - Express.js  
-- EJS (templating engine)  
+- EJS templates  
 - Tailwind CSS  
-- JSON data files  
+- JSON data
 
-## 📁 Project Structure
-- `server.js` → Main Express server  
-- `/modules` → Data logic (e.g., mealService)  
-- `/views` → EJS pages  
-- `/public` → Static assets  
-- `/data` → JSON files  
+## Project Structure
+- `server.js` – sets up the Express server and routes  
+- `modules/` – data services (e.g., loading meals)  
+- `views/` – EJS pages and partials  
+- `public/` – static files (CSS, images)  
+- `data/` – JSON data used by the app  
 
-## ✨ Features
-- Server-side rendered pages (SSR)  
-- Dynamic meal list and details  
-- Category filtering  
-- Modular code organization  
-- Responsive UI with Tailwind  
+## Features
+- Renders pages on the server using EJS  
+- Displays meals, categories, and individual meal details  
+- Filters meals by category  
+- Organized into modules for cleaner code  
+- Styled with Tailwind for a simple responsive layout  
 
-## 🚀 How to Run
+## How to Run
 ```bash
 npm install
 npm start
 ```
 
-App runs at:
+The app will be available at:
 ```
 http://localhost:8080
 ```
 
-## 📚 Purpose
-Demonstrates Express routing, templating with EJS, and full-stack fundamentals.
+## Purpose
+This assignment demonstrates the basics of full-stack development using Express and EJS, including routing, templating, and working with data modules.
